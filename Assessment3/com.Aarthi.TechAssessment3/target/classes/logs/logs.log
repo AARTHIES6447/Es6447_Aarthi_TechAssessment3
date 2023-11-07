@@ -1,0 +1,18 @@
+[INFO ] 2023-11-07 14:43:06.848 [main] TestLogger - implicitly waiting for 10 seconds
+[INFO ] 2023-11-07 14:43:15.831 [main] TestLogger - Logged into google
+[ERROR] 2023-11-07 14:43:16.951 [main] TestLogger - Exception occured
+java.lang.Exception: Element Not Found
+	at com.Aarthi.TechAssessment3.TestLogger.main(TestLogger.java:25) [test-classes/:?]
+[INFO ] 2023-11-07 14:43:17.559 [main] TestLogger - quitting the driver
+[INFO ] 2023-11-07 14:43:57.253 [main] TestLogger - implicitly waiting for 10 seconds
+[INFO ] 2023-11-07 14:44:04.288 [main] TestLogger - Logged into google
+[INFO ] 2023-11-07 14:44:05.149 [main] TestLogger - quitting the driver
+[INFO ] 2023-11-07 14:47:54.752 [main] TestLogger - implicitly waiting for 10 seconds
+[INFO ] 2023-11-07 14:48:00.600 [main] TestLogger - Logged into google
+[INFO ] 2023-11-07 14:48:01.243 [main] TestLogger - quitting the driver
+[INFO ] 2023-11-07 14:48:18.015 [main] TestLogger - implicitly waiting for 10 seconds
+[INFO ] 2023-11-07 14:48:26.449 [main] TestLogger - Logged into google
+[INFO ] 2023-11-07 14:48:27.006 [main] TestLogger - quitting the driver
+[INFO ] 2023-11-07 15:28:07.953 [main] TestLogger - implicitly waiting for 10 seconds
+[INFO ] 2023-11-07 15:28:14.723 [main] TestLogger - Logged into google
+[INFO ] 2023-11-07 15:28:15.257 [main] TestLogger - quitting the driver

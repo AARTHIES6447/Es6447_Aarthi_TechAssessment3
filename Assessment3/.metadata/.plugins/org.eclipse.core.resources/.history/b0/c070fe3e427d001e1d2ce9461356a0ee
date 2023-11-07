@@ -1,0 +1,32 @@
+package com.Aarthi.TechAssessment3;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class RegisterDefinition {
+	RegisterActions act = new RegisterActions();
+	
+	@Given("User clicking register button to enter credentials")
+	public void user_clicking_register_button_to_enter_credentials() {
+	System.out.println("");
+	}
+	
+
+	@When("User clicking radio button")
+	public void user_clicking_radio_button() {
+		System.out.println("radio button");
+	}
+
+	@When("User entering firstname,Lastname,email,password and also confirm password")
+	public void user_entering_firstname_lastname_email_password_and_also_confirm_password(io.cucumber.datatable.DataTable dataTable) {
+		System.out.println("");
+	}
+
+	@Then("User clicks register button")
+	public void user_clicks_register_button() {
+		System.out.println("Register button");
+	    
+	}
+
+	}

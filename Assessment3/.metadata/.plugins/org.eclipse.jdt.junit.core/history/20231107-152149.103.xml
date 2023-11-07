@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="com.Aarthi.TechAssessment3" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.Aarthi.TechAssessment3.Runner" time="0.209">
+    <testsuite name="Login Funtionality of DemoWebShop" time="0.209">
+      <testcase name="Verification of Login using valid credentials" classname="Login Funtionality of DemoWebShop" time="0.209">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User is on DemoWebShop Home page' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on DemoWebShop Home page")
+public void user_is_on_demo_web_shop_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks Login")
+public void user_clicks_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters Email and Password")
+public void user_enters_email_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks Remember me")
+public void user_clicks_remember_me() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks login button")
+public void user_clicks_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should be able to login sucessfully")
+public void user_should_be_able_to_login_sucessfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,57 @@
+package com.Aarthi.TechAssessment3;
+
+public class RegisterDefinition {
+	
+	@Given("User logins to application using url")
+	public void user_logins_to_application_using_url() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("user gives gender")
+	public void user_gives_gender() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user gives firstname")
+	public void user_gives_firstname() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user gives Lastname")
+	public void user_gives_lastname() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user gives Email")
+	public void user_gives_email() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user gives password")
+	public void user_gives_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user gives confirmpassword")
+	public void user_gives_confirmpassword() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("user gives register Button")
+	public void user_gives_register_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+
+
+}

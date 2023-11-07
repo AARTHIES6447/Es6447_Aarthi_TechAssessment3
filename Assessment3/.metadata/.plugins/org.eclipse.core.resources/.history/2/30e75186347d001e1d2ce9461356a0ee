@@ -1,0 +1,32 @@
+package com.Aarthi.TechAssessment3;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class RegisterLocators {
+	
+	@FindBy(xpath="//a[@class='ico-register']")
+	WebElement Register;
+	
+	@FindBy(id="gender-female")
+	WebElement Gender;
+	
+	@FindBy(id="FirstName")
+	WebElement FirstName;
+	
+	@FindBy(id="LastName")
+	WebElement LastName;
+	
+	@FindBy(id="Email")
+	WebElement Email;
+	
+	@FindBy(id="Password")
+	WebElement Password;
+	
+	@FindBy(id="ConfirmPassword")
+	WebElement ConfirmPassword;
+	
+	@FindBy(id="register-button")
+	WebElement RegisterButton;
+
+}

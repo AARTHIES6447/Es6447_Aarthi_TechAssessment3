@@ -1,0 +1,35 @@
+package com.Aarthi.TechAssessment3;
+
+import org.openqa.selenium.support.PageFactory;
+
+public class RegisterActions {
+	RegisterLocators RegisterLocators;
+	String strFirstName, strLastName;
+	public RegisterActions() {  
+		this.RegisterLocators = new RegisterLocators();
+		
+		PageFactory.initElements(HelperClass.getDriver(), RegisterLocators);
+	}
+//	public void clickButton() {
+//	 ((Object) RegisterLocators).click();
+//    }
+	public void setFirstName(String strFirstName) {
+		RegisterLocators.FirstName.sendKeys(strFirstName);
+	}
+	public void setlasstName(String strLastName) {
+		RegisterLocators.LastName.sendKeys(strLastName);
+	}
+	public void setEmail(String strEmail) {
+		RegisterLocators.FirstName.sendKeys(strEmail);
+	}
+	public void setPassword(String strFirstName) {
+		RegisterLocators.FirstName.sendKeys(strFirstName);
+	}
+	public void setConfirmPassword(String strFirstName) {
+		RegisterLocators.FirstName.sendKeys(strFirstName);
+	}
+	public void getRegisterButton(String strFirstName) {
+		RegisterLocators.FirstName.sendKeys(strFirstName);
+	}
+	
+}

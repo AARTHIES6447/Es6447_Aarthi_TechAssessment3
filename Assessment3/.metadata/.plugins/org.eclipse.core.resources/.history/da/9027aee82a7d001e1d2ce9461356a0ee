@@ -1,0 +1,10 @@
+Feature: user want to Register in a demo 
+
+Scenario: Register with. valids credential
+
+   Given User logins to application using url
+   When user gives firstname and lastname
+   And user gives Lastname
+   And user gives Email
+   And user gives password
+   Then user gives register Button

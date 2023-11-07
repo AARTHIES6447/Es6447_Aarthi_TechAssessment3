@@ -1,0 +1,22 @@
+package com.Aarthi.TechAssessment3;
+
+import org.openqa.selenium.support.PageFactory;
+
+public class HomePageActions {
+HomePageLocators homepageLocators ;
+	
+	public HomePageActions(){
+		homepageLocators = new HomePageLocators();
+		
+		PageFactory.initElements(HelperClass.getDriver(), homepageLocators);
+	}
+	
+	public String verifyText() {
+		return homepageLocators.verifyText.getText();
+	}
+	public String VerifyErrorMessage() {
+		return homepageLocators.VerifyErrorMessage.getText();
+	}
+ 
+	
+	}
